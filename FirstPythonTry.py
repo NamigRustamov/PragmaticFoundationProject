@@ -48,4 +48,148 @@ x >= y veya x <= y: burada x y deyerinden boyukya da beraber veya kicik ya da be
 indentation nədir? Python sintaksisində əhəmiyyəti nədir? Yazilan melumatin onunde boslugun buraxilmasidir.
 Python indentation Python interpretera mueyyen grup melumatin mueyyen block of code-a aid olmasini gosterir.
 """
+#Day06
 
+#print(1,2,3,4,5,6,7,8,9,10)
+
+#i = 1
+#while i < 6:
+  #print(i)
+  #i += 1
+
+#i = 1
+#while i < 6:
+ # print(i)
+  #if (i == 3):
+   # break
+  #i += 1
+
+#i = 1
+#while i < 10:
+ #   print(i)
+  #  if (i == 10):
+   #     break
+    #i += 1
+    
+#i=1
+#while i<11:
+  #  print(i)
+   # if (i == 11):
+    #    break
+    #i+=1
+
+#i=1
+#while i<11:
+   # print(i)
+   # if(i==11):
+      # break
+   # i+=1
+
+
+
+#count from 1 to 20
+#i=1
+#while i<21:
+  #  print(i)
+  #  if (i==21):
+   #     break
+   # i+=1
+
+
+
+
+#def my_function(Adlar):
+  #  print(Adlar+ " Bravo")
+
+#my_function("Aydin")       
+#my_function("Aynur")
+#my_function("Bahar")
+
+#def my_function(fname, lname, uname):
+   # print(fname + uname)
+
+#my_function("Aynur", "Bravo", "kassir")    
+
+
+#*arg
+#def my_function(*worker):
+  ##print("the newest worker is" + worker[3])
+  
+
+#my_function("emil", "ramin", "farid", " Aynur")
+
+#keywords arguments
+
+#workers
+#def my_function(worker1, worker2,worker3):
+   # print("the newest worker is " + worker1)
+
+#my_function (worker1="Aynur", worker2= "Nargiz", worker3="Farid")
+
+#Bank clients 
+#def my_function(client1, client2, client3):
+  # print("The valuable client is " + client1)
+
+#my_function(client1="Vahid", client2="Aynur", client3="Namiq")    
+
+
+
+#if, else, elif
+# a=55
+# b=35
+# if   b>a:
+#       print("b is greater than a")
+
+# elif b<a:
+#       print("a is greater than b")
+
+
+# a=55
+# b=55
+# if a>b:
+#     print("a is greater than b")
+
+# elif a==b:
+#     print("a is equal to b")    
+
+# a=55
+# b=59
+# if a>b:
+#     print("a is greater than b")
+
+# elif a==b:
+#     print("a is equal to b")
+
+# else: print("a less than b")
+
+
+# x=35
+# y=25
+# if x==y:
+#     print("x is equal to y")
+# elif x<y:
+#     print("x is less than y")
+# else: print("x is greater than y")
+
+
+#Short Hand If ... Else
+
+# a=150
+# b=200
+# print("A") if a>b else print("B")
+
+# a=255
+# b=155
+# print("A") if a<b else print("false")
+
+# a=24
+# b=24
+# print("A") if a>b else print("a=b") if a==b else print("a=b")
+
+##And
+
+a=25
+b=35
+c=85
+if a>b and b>c: print("true") 
+else: print("false")
