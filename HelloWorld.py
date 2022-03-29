@@ -33,30 +33,30 @@
 #ad="Namiq"
 
 #int,float,complex
-x=5.5
-x=10
+# x=5.5
+# x=10
 #print(type(ad))
 #print(type(x))
 
 #boolean
-rightanswer=True
+# rightanswer=True
 
 #print(type(rightanswer))
 
 #datatype List
-telebe01="Namiq"
-telebe02="Vahid"
-telebe03="Nargiz"
+# telebe01="Namiq"
+# telebe02="Vahid"
+# telebe03="Nargiz"
 #print(telebe03)
 
-telebeadlari=["Namiq","Vahid","Nargiz"]
-namiq={
-    "ad":"Namiq",
-    "soyad":"Rustamov",
-    "yas":42,
-    "veten":"Azerbaycan",
-    "evlilikdurumu":False
-}
+# telebeadlari=["Namiq","Vahid","Nargiz"]
+# namiq={
+#     "ad":"Namiq",
+#     "soyad":"Rustamov",
+#     "yas":42,
+#     "veten":"Azerbaycan",
+#     "evlilikdurumu":False
+
 #print(telebeadlari[0])
 #print(namiq["soyad"])
 
@@ -82,17 +82,17 @@ namiq={
 
 #print(4>4)
 
-adlar=("Nargiz,""Vafa,""Narmin")
-#print(adlar[1])
+# adlar=("Nargiz,""Vafa,""Narmin")
+# #print(adlar[1])
 
-telebeadlari=["Namiq","Vahid","Nargiz"]
-namiq={
-    "ad":"Namiq",
-    "soyad":"Rustamov",
-    "yas":42,
-    "veten":"Azerbaycan",
-    "evlilikdurumu":False
-    }
+# telebeadlari=["Namiq","Vahid","Nargiz"]
+# namiq={
+#     "ad":"Namiq",
+#     "soyad":"Rustamov",
+#     "yas":42,
+#     "veten":"Azerbaycan",
+#     "evlilikdurumu":False
+    # }
 #yas=int(input("Yasinizi daxil edin:"))
 
 #x=int(input("X deyerini daxil edin:"))
@@ -118,3 +118,22 @@ namiq={
 #print(3)
 
 
+# maaslar=[600,400,800,550,320]
+# #butun isci  maaslari ekranda goster
+# i=0
+# while i<5:
+#     print(maaslar[i])
+#     i+=1
+# cem=0
+# for maas in maaslar:
+#      cem=cem+maas
+#      cem+=maas
+
+iscilerinYaslari=[20,24,19,45,34]
+
+yaslarinCemi=0
+i=0
+while i<5:
+    yaslarinCemi+=iscilerinYaslari[i]
+    i+=1
+ortalamaYas=yaslarinCemi/5

@@ -57,12 +57,12 @@ Python indentation Python interpretera mueyyen grup melumatin mueyyen block of c
   #print(i)
   #i += 1
 
-#i = 1
-#while i < 6:
- # print(i)
-  #if (i == 3):
-   # break
-  #i += 1
+# i = 1
+# while i < 6:
+#  print(i)
+#   if (i == 3):
+#    break
+#   i += 1
 
 #i = 1
 #while i < 10:
@@ -95,7 +95,13 @@ Python indentation Python interpretera mueyyen grup melumatin mueyyen block of c
    #     break
    # i+=1
 
-
+i=1
+while i<31:
+    print(i)
+    if (i==31):
+        break
+    i+=1
+    
 
 
 #def my_function(Adlar):
@@ -188,8 +194,11 @@ Python indentation Python interpretera mueyyen grup melumatin mueyyen block of c
 
 ##And
 
-a=25
-b=35
-c=85
-if a>b and b>c: print("true") 
-else: print("false")
+# a=25
+# b=35
+# c=85
+# if a>b and b>c: print("true") 
+# else: print("false")
+
+
+
