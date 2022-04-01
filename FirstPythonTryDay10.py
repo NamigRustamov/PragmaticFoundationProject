@@ -92,17 +92,17 @@ arr=[1,34,23,90,230,1400,600,300,240] #bu listi nəzərə alaraq aşağıdakı p
 
 
 countries=['Azərbaycan','Turkiyə','Polsa','Macaristan','Ingiltere','Gurcustan']
-# def herfsayinitap():
-#     mtn="Memmed"
-#     print(len(mtn))
-# herfsayinitap() 
+def herfsayinitap():
+    mtn="Memmed"
+    print(len(mtn))
+herfsayinitap() 
 
 
-# def herfsayinitap():
-#     for country in countries:
-#         print(country,len(country))
+def herfsayinitap():
+    for country in countries:
+        print(country,len(country))
 
-# herfsayinitap()
+herfsayinitap()
 
 #def enuzunolkeadinitap():
     #butun olkelerin ad uzunlugunun tap
@@ -110,7 +110,7 @@ countries=['Azərbaycan','Turkiyə','Polsa','Macaristan','Ingiltere','Gurcustan'
     #hazirlanan listi boyukten kiciye dogru sirala
     #ilk elementi cap et
 
-#  countries= ("Azərbaycan','Turkiyə','Polsa','Macaristan','Ingiltere','Gurcustan")
+# countries= ("Azərbaycan','Turkiyə','Polsa','Macaristan','Ingiltere','Gurcustan")
 # x = countries.count("a")
 # for x in countries:
 #     z = countries.count("a")
@@ -121,7 +121,7 @@ countries=['Azərbaycan','Turkiyə','Polsa','Macaristan','Ingiltere','Gurcustan'
 
 
 
-#print(countries.startswith("A"))
+# print(len(countries))
 
 
 

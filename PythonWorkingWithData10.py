@@ -49,10 +49,10 @@ arr=[1,34,23,90,230,1400,600,300,240] #bu listi nəzərə alaraq aşağıdakı p
 #butun ededleri cap et
 # riyazi hell yolu
 
-eded="samir"
+# eded="samir"
 
-for herf in eded:
-    print (herf)
+# for herf in eded:
+#     print (herf)
 
 
 
