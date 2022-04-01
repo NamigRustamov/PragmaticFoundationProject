@@ -6,6 +6,7 @@
 # 
 # version 01
 
+
 # adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
 # soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
 # telebeler=[adlar,soyadlar]
@@ -16,20 +17,24 @@
 # print(f"Ad:{telebeler[0][0]}, Soyad:{telebeler[1][0]}")
 # print(f"Ad:{telebeler[0][1]}, Soyad:{telebeler[1][1]}")
 # print(f"Ad:{telebeler[0][2]}, Soyad:{telebeler[1][2]}")
-
-
+# print(f"Ad:{telebeler[0][3]}, Soyad:{telebeler[1][3]}")
+# print(f"Ad:{telebeler[0][4]}, Soyad:{telebeler[1][4]}")
 
 # i=0
 # while i<len(adlar):
 #     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
 #     i+=1
 
-###Tapsiriq
-#i=0
-# for x in telebeler:
-#     print(x)
-    
+# ###Tapsiriq
+# i=0
+# while i<len(adlar):
 
+#      print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
+#      i+=1
+
+# i=0
+# for x in telebeler:
+#     print((adlar[0]+soyadlar[0]),(adlar[1]+soyadlar[1]),(adlar[2]+soyadlar[2]))
 
 
 # version 02
@@ -38,18 +43,24 @@
 #     ['Ehmed','Memmed','Sabir'],
 #     ['Ehmedov','Salehov','Quliyev']
 # ]
+
 # print(telebeler[1][2])
 
 ###Tapsiriq
+# telebeler=[
+#     ['Ehmed','Memmed','Sabir'],
+#     ['Ehmedov','Salehov','Quliyev']
+# ]
 # i=0
 # while i<len(telebeler):
-#     print(telebeler[1][2])
+#     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
 #     i+=1
+
 
 
 # i=0
 # for x in telebeler:
-#        print(x)
+#        print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
          
 
 #version 03
@@ -68,15 +79,16 @@
 # telebeler=[telebe01,telebe02,telebe03]
 # print(telebeler[1]["ad"])
 
-# i=0
-# while i<len(telebeler):
-#     print(telebe01)
-#     i+=1
+###Tapshiriq
 
+# i=2
+# while i<len(telebeler):
+#     print(telebeler)
+#     i+=1
 
 # i=0
 # for x in telebeler:
-#     x=telebe01
+#     x=telebeler
 #     print(x)
 
 #version 04
@@ -100,31 +112,38 @@
 ###Tapshiriq
 
 # i=0
-# while i<len(telebeler):
-#     print(telebeler[1]["ad"])
+# while i<1:
+#     print(telebeler)
 #     i+=1
 
 
 # i=0
 # for x in telebeler:
-#     x="Memmed"
 #     print(x)
 
 # #version 05
-telebeler={
-    "adlar":['Ehmed','Memmed','Sabir'],
-    "soyadlar":['Ehmedov','Salehov','Quliyev']
-}
+# telebeler={
+#     "adlar":['Ehmed','Memmed','Sabir'],
+#     "soyadlar":['Ehmedov','Salehov','Quliyev']
+# }
 # print(telebeler["adlar"][1]) 
 # print(telebeler["adlar"][1])
+# i=0
+# while i<len(telebeler):
+#    print(telebeler["adlar"][2]) 
+#    i+=1
+# i=0
+# for x in telebeler:
+#      print(telebeler["adlar"][1]) 
+
 
 
 # def FindFullname(ad):
 
 #     pass
 
-#FindFullname("Memmed")
-#Axtardığınız tələbənin tam adı Memmed Salehov-dur
+# FindFullname("Memmed")
+# Axtardığınız tələbənin tam adı Memmed Salehov-dur
 
 
 ###Tapshiriq
@@ -134,12 +153,52 @@ telebeler={
 #     i+=1
 
 
-i=0
-for x in telebeler:
-       x=(telebeler["adlar"][1])
-       print(x)
+# i=0
+# for telebe in telebeler:
+#        print(telebe)
+#        
 
 # i=0
 # while i<len(adlar):
 #     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
 #     i+=1
+
+# telebeler={
+#     "adlar":['Ehmed','Memmed','Sabir'],
+#     "soyadlar":['Ehmedov','Salehov','Quliyev']}
+
+############################
+
+# adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
+# soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
+# fullnames=["Memmed Salehov","Ehmed Ehmedov" ]
+#print (fullnames [1])
+
+# for i in range(len(adlar)):
+#     fullnames.append(adlar[i]+' '+soyadlar[i])
+
+# for fullname in fullnames:
+#     print(fullname)
+
+##########################
+
+# def FindFullname(ad):
+#     print(ad+soyadlar)
+#     def Axtardiğiniz_tələbənin_tam_adi
+    
+# FindFullname("")
+# def Axtardiğiniz_tələbənin_tam_adi
+# adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
+# soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
+
+
+# def adlaricapet(ad,soyad="Celilova"):
+#     print(ad+soyad)
+#     def Salamlama():
+#         print(" Salamlar")
+#     Salamlama()
+# adlaricapet("Narmin") #burada NarminCelilova Salamlar verecek
+
+# FindFullname("Memmed")
+# Axtardığınız tələbənin tam adı Memmed Salehov-dur
+

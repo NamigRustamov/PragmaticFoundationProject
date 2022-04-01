@@ -95,12 +95,12 @@ Python indentation Python interpretera mueyyen grup melumatin mueyyen block of c
    #     break
    # i+=1
 
-i=1
-while i<31:
-    print(i)
-    if (i==31):
-        break
-    i+=1
+# i=1
+# while i<31:
+#     print(i)
+#     if (i==31):
+#         break
+#     i+=1
     
 
 
