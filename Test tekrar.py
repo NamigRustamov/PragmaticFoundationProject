@@ -24,9 +24,11 @@
 
 ## DAY 04
 
-
-
-
+x=5; y=6
+z=x+y
+print(z)
+print("salam")
+print(4-2*6)
 
 
 

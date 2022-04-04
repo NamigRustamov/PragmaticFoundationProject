@@ -5,21 +5,21 @@
 
 #Calculator New
 
-#what = input( "What to do?(+, -):")
+what = input( "What to do?(+, -):")
 
 #x=input("X deyerini daxil et")
 #y=input("Y deyerini daxil et")
 #z=int(x)+int(y)
 #print(f"{x}+{y}={z}")
 
-#a = float(input( "Write first number: ")) 
-#b = float(input("Write second number: "))
-#if what == "+":
- #c = a + b
-#print("Result:" + str(c))
-#if what == "-": 
- #c = a - b
-#print("Result:" - str(c)) 
+a = float(input( "Write first number: ")) 
+b = float(input("Write second number: "))
+if what == "+":
+ c = a + b
+print("Result:" + str(c))
+if what == "-": 
+ c = a - b
+print("Result:" - str(c)) 
 
 #x=5
 #y=6

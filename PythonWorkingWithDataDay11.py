@@ -4,9 +4,13 @@
 
 # #quote daxilində necə xarakter olduğunu tapın
 
-#quote="""Programming isn't about what you know; it's about what you can figure out."""
+quote="""Programming isn't about what you know; it's about what you can figure out."""
+def xaraktersayinitap(content):
+    print(len(content))
 
-# print(len(quote))
+xaraktersayinitap(quote)
+
+
 
 
 #quote daxilində necə boşluq olduğunu tapın
@@ -57,8 +61,4 @@ nums=[23,56,78,100,14,70,300,236]
 
 #- sadəcə iki reqemli ededlerin cemini tapin
 #rint(cem)
-cem=0
-for eded in nums:
-    if eded<100:
-        print(cem)
 
