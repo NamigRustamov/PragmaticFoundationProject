@@ -33,7 +33,7 @@
 #      i+=1
 
 # i=0
-# for x in telebeler:
+# for adlar in telebeler:
 #     print((adlar[0]+soyadlar[0]),(adlar[1]+soyadlar[1]),(adlar[2]+soyadlar[2]))
 
 
@@ -50,7 +50,7 @@
 # telebeler=[
 #     ['Ehmed','Memmed','Sabir'],
 #     ['Ehmedov','Salehov','Quliyev']
-# ]
+#  ]
 # i=0
 # while i<len(telebeler):
 #     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
@@ -59,7 +59,7 @@
 
 
 # i=0
-# for x in telebeler:
+# for telebe in telebeler:
 #        print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
          
 
@@ -77,7 +77,7 @@
 #     "soyad":"Quliyev"
 # }
 # telebeler=[telebe01,telebe02,telebe03]
-# print(telebeler[1]["ad"])
+# print(telebeler[3]["ad"])
 
 ###Tapshiriq
 
@@ -86,10 +86,11 @@
 #     print(telebeler)
 #     i+=1
 
-# i=0
+# i=2
 # for x in telebeler:
 #     x=telebeler
 #     print(x)
+    
 
 #version 04
 # telebeler=[
@@ -106,7 +107,7 @@
 #     "soyad":"Quliyev"
 # }
 # ]
-#print(telebeler[1]["ad"])
+# print(telebeler[1]["ad"])
 
 
 ###Tapshiriq
@@ -134,8 +135,9 @@
 #    i+=1
 # i=0
 # for x in telebeler:
-#      print(telebeler["adlar"][1]) 
-
+    
+#     print(telebeler["adlar"][2])
+#     print(telebeler["soyadlar"][2])
 
 
 # def FindFullname(ad):
@@ -169,16 +171,16 @@
 
 ############################
 
-# adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
-# soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
-# fullnames=["Memmed Salehov","Ehmed Ehmedov" ]
+adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
+soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
+fullnames=["Memmed Salehov","Ehmed Ehmedov" ]
 #print (fullnames [1])
 
 # for i in range(len(adlar)):
 #     fullnames.append(adlar[i]+' '+soyadlar[i])
 
-# for fullname in fullnames:
-#     print(fullname)
+for fullname in fullnames:
+    print(fullname)
 
 ##########################
 

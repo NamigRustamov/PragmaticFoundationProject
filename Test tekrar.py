@@ -94,6 +94,27 @@
 
 
 ## DAY 06 ##25.03.22
+# x=int(input("Ilk reqemi daxil edin :"))
+# y=int(input("ikinci reqemi daxil edin:"))
+
+# def sum(a,b):
+#     return a+b
+# print(sum(x,y))    
+
+# a=1
+# b=a
+# c=30
+# def artir():
+#     global b
+#     print(b)
+#     b=b+1
+#     if b<c+1:
+#         artir()
+# artir()   
+
+
+
+
 
 
 

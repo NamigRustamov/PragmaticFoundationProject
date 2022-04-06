@@ -33,7 +33,7 @@ def ShowAllUser():
     for user in users:
         print(user.getUserData())
 
-
+del User
 print(User)
 
 
