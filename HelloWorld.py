@@ -5,21 +5,21 @@
 
 #Calculator New
 
-what = input( "What to do?(+, -):")
+# what = input( "What to do?(+, -):")
 
 #x=input("X deyerini daxil et")
 #y=input("Y deyerini daxil et")
 #z=int(x)+int(y)
 #print(f"{x}+{y}={z}")
 
-a = float(input( "Write first number: ")) 
-b = float(input("Write second number: "))
-if what == "+":
- c = a + b
-print("Result:" + str(c))
-if what == "-": 
- c = a - b
-print("Result:" - str(c)) 
+# a = float(input( "Write first number: ")) 
+# b = float(input("Write second number: "))
+# if what == "+":
+#  c = a + b
+# print("Result:" + str(c))
+# if what == "-": 
+#  c = a - b
+# print("Result:" - str(c)) 
 
 #x=5
 #y=6
@@ -138,16 +138,16 @@ print("Result:" - str(c))
 # print(araeded)
 
 #bunu function halina getirek
-# ilkeded=1
-# araeded=ilkeded
-# soneded=30
-# def artir():
-#      global araeded
-#      print(araeded)
-#      araeded=araeded+1
-#      if araeded<30: #30 kimim atriracaq
-#         artir()
-# #artir()
+ilkeded=1
+araeded=ilkeded
+soneded=30
+def artir():
+     global araeded
+     print(araeded)
+     araeded=araeded+1
+     if araeded<30: #30 kimim atriracaq
+        artir()
+artir()
 
 # def greeting():
 #     print("Salam")

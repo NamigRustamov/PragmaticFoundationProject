@@ -16,6 +16,9 @@
   - 3 haqqını istifadə etdikdən sonra "Siz oyunu uduzdunuz " mesajı verilsin"""
 
 
+from multiprocessing.managers import BaseManager
+
+
 arr = [10,20,30,20,10,50,60,40,80,50,40] 
 # squares = []
 # for number in arr:
@@ -55,13 +58,15 @@ while True:
     username=input("Zehmet olmasa username yazin :")
     password= input("Zehmet olmasa password yazin:")
     if username=='admin':
-        continue
+     continue
     elif " ":
         print("Dəyərlər boş buraxıla bilməz")
     else:
         print("Deyer sehv daxil edilmisdir")
         
     if password=='123456':
+        print("Sistemə daxil oldunuz təşəkkür edirik")
+        break
         print("Sistemə daxil oldunuz təşəkkür edirik")
     elif "":
         print("Dəyərlər boş buraxıla bilməz")

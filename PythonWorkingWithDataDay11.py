@@ -6,9 +6,9 @@
 
 quote="""Programming isn't about what you know; it's about what you can figure out."""
 def xaraktersayinitap(content):
-    print(len(content))
+    return(len(content)) #print evezine return daha yaxshi
 
-xaraktersayinitap(quote)
+xaraktersayinitap()
 
 
 
