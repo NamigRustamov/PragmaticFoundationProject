@@ -47,10 +47,10 @@
 # print(telebeler[1][2])
 
 ###Tapsiriq
-# telebeler=[
-#     ['Ehmed','Memmed','Sabir'],
-#     ['Ehmedov','Salehov','Quliyev']
-#  ]
+telebeler=[
+    ['Ehmed','Memmed','Sabir'],
+    ['Ehmedov','Salehov','Quliyev']
+ ]
 # i=0
 # while i<len(telebeler):
 #     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
@@ -58,9 +58,9 @@
 
 
 
-# i=0
-# for telebe in telebeler:
-#        print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
+i=0
+for telebe in telebeler:
+       print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
          
 
 #version 03

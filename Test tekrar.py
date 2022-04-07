@@ -114,6 +114,9 @@
 
 ## DAY 07 ##28.03.22
 
+
+
+
 maaslar=[600,400,800,550,320,700]
 #toplam isci maasi
 #ortalama maas
@@ -174,7 +177,7 @@ ortalamayas=yaslarincemi/len(iscilerinYaslari)
 #Version 01
 # adlar=["Ehmed","Memmed","Sabir"]
 # soyadlar=["Ehmedov","Salehov","Memmedov"]
-# telebeler=[adlar,soyadlar]
+# fullnames=[]
 # print(telebeler[1][1],telebeler[0][1],telebeler[1][2],telebeler[0][2])
 
 # print(f"Ad:{telebeler[0][0]}, Soyad:{telebeler[1][0]}")
@@ -186,22 +189,34 @@ ortalamayas=yaslarincemi/len(iscilerinYaslari)
 #     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
 #     i+=1
 
-# i=0
-# for i in adlar:
-    
-#     print(adlar[1])
+# for i in range(len(adlar)):
+#     fullnames.append(adlar[i]+' '+soyadlar[i])
+
+# for fullname in fullnames:
+#     print(fullname)
+        
+
+###########Burada
+
+
+
+
 #Version 02
 
-telebeler=[
-    ["Ehmed","Memmed","Sabir"],
-    ["Ehmedov","Salehov","Memmedov"]
-]
-# print(telebeler[1][2])
+# telebeler=[
+#     ["Ehmed","Memmed","Sabir"],
+#     ["Ehmedov","Salehov","Memmedov"]
+# ]
+# # print(telebeler[1][2])
 
-i=0
-while i<len(telebeler):
-    print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
-    i+=1
+# i=0
+# while i<len(telebeler[0]):
+#     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
+#     i+=1
+
+
+# for i in range(len(telebeler[0])):
+#     print(telebeler[0][i]+' '+telebeler[1][i])
 
 #Version 03
 # telebe01={
@@ -218,7 +233,10 @@ while i<len(telebeler):
 # }
 
 # telebeler=[telebe01,telebe02,telebe03]
-# print(telebeler[1]["ad"],telebeler[1]["soyad"])
+# print(telebeler[1]["ad"],telebeler[1]["soyad"],telebeler[0]["ad"],telebeler[0]["soyad"])
+
+# for i in range(len(telebeler[0])):
+#     print(telebe01,telebe02,telebe03)
 
 ##Version 04
 
@@ -238,14 +256,18 @@ while i<len(telebeler):
 #  ]
    
 # print(telebeler[1]["ad"],telebeler[1]["soyad"])
+# for i in telebeler:
+#     print(telebeler[1]["ad"],telebeler[1]["soyad"])
 
 ##Version 05
 # telebeler={
 #    "adlar":["Ehmed","Memmed","Sabir"],
 #     "soyadlar":["Ehmedov","Salehov","Memmedov"]
 # }
-# print(telebeler["adlar"][1])
+# # print(telebeler["adlar"][1])
 
+# for i in telebeler:
+#     print(telebeler["adlar"][1])
 
 
 
