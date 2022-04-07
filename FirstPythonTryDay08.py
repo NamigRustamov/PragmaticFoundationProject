@@ -173,20 +173,24 @@
 
 adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
 soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
-fullnames=["Memmed Salehov","Ehmed Ehmedov" ]
+# fullnames=["Memmed Salehov","Ehmed Ehmedov" ]
 #print (fullnames [1])
 
 # for i in range(len(adlar)):
 #     fullnames.append(adlar[i]+' '+soyadlar[i])
 
-for fullname in fullnames:
-    print(fullname)
+# for fullname in fullnames:
+#     print(fullname)
 
 ##########################
 
-# def FindFullname(ad):
-#     print(ad+soyadlar)
-#     def Axtardiğiniz_tələbənin_tam_adi
+def FindFullname(name):
+    for ad in adlar:
+        if ad==(name):
+          print([ad],[soyadlar])
+        
+print("Axtardigininz telebenin adi", )
+FindFullname("Ehmed")
     
 # FindFullname("")
 # def Axtardiğiniz_tələbənin_tam_adi

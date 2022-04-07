@@ -112,13 +112,139 @@
 #         artir()
 # artir()   
 
+## DAY 07 ##28.03.22
+
+maaslar=[600,400,800,550,320,700]
+#toplam isci maasi
+#ortalama maas
+
+# i=0
+# while i<5:
+#     print(maaslar[i])
+#     i+=1
+
+
+# for maas in maaslar:
+#     print(maas)
+
+
+# cem=0
+# for maas in maaslar:
+#     cem+=maas
+# print(cem)
+
+# ortalamamaas=cem/len(maaslar)
+# print(ortalamamaas)
+
+iscilerinYaslari=[23,34,19,45,34]
+#ortalama yas
+yaslarincemi=0
+i=0
+while i<5:
+    yaslarincemi+=iscilerinYaslari[i]
+    i+=1
+ortalamayas=yaslarincemi/len(iscilerinYaslari)
+#(ortalamayas)
+
+
+# for yas in iscilerinYaslari:
+#     if yas<ortalamayas:
+#         print(yas)
+
+# j=0
+# while j<len(iscilerinYaslari):
+#     if iscilerinYaslari[j]<ortalamayas:
+#         print(maaslar[j],iscilerinYaslari[j])
+#     j+=1
+
+
+# ortalamayasdan az olanin maasini 10 faiz artirmaq
+# j=0
+# while j<len(iscilerinYaslari):
+#     if iscilerinYaslari[j]<ortalamayas:
+#         print(maaslar[j]*1.1,iscilerinYaslari[j])
+#     j+=1
 
 
 
+# butun telebeler ad ve soyadlarini asagida sablon formada ekrana cap edin
+# Ad: Ehmed,Soyad:Ehmedov
+# Ad: Memmed,Soyad:Salehov
 
+#Version 01
+# adlar=["Ehmed","Memmed","Sabir"]
+# soyadlar=["Ehmedov","Salehov","Memmedov"]
+# telebeler=[adlar,soyadlar]
+# print(telebeler[1][1],telebeler[0][1],telebeler[1][2],telebeler[0][2])
 
+# print(f"Ad:{telebeler[0][0]}, Soyad:{telebeler[1][0]}")
+# print(f"Ad:{telebeler[0][1]}, Soyad:{telebeler[1][1]}")
+# print(f"Ad:{telebeler[0][2]}, Soyad:{telebeler[1][2]}")
 
+# i=0
+# while i<len(adlar):
+#     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
+#     i+=1
 
+# i=0
+# for i in adlar:
+    
+#     print(adlar[1])
+#Version 02
+
+telebeler=[
+    ["Ehmed","Memmed","Sabir"],
+    ["Ehmedov","Salehov","Memmedov"]
+]
+# print(telebeler[1][2])
+
+i=0
+while i<len(telebeler):
+    print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
+    i+=1
+
+#Version 03
+# telebe01={
+#     "ad":"Ehmed",
+#     "soyad":"Ehmedov"    
+# }
+# telebe02={
+#     "ad":"Ali",
+#     "soyad":"Aliyev"
+# }
+# telebe03={
+#     "ad":"Alim",
+#     "soyad":"Agayev"
+# }
+
+# telebeler=[telebe01,telebe02,telebe03]
+# print(telebeler[1]["ad"],telebeler[1]["soyad"])
+
+##Version 04
+
+# telebeler=[
+#  {
+#     "ad":"Ehmed",
+#     "soyad":"Ehmedov"
+#  },
+#  {
+#     "ad":"Ali",
+#     "soyad":"Aliyev"
+# },
+# {
+#     "ad":"Alim",
+#     "soyad":"Agayev"
+# }
+#  ]
+   
+# print(telebeler[1]["ad"],telebeler[1]["soyad"])
+
+##Version 05
+# telebeler={
+#    "adlar":["Ehmed","Memmed","Sabir"],
+#     "soyadlar":["Ehmedov","Salehov","Memmedov"]
+# }
+# print(telebeler["adlar"][1])
 
 
 
