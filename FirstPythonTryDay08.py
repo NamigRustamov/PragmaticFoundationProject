@@ -47,10 +47,10 @@
 # print(telebeler[1][2])
 
 ###Tapsiriq
-telebeler=[
-    ['Ehmed','Memmed','Sabir'],
-    ['Ehmedov','Salehov','Quliyev']
- ]
+# telebeler=[
+#     ['Ehmed','Memmed','Sabir'],
+#     ['Ehmedov','Salehov','Quliyev']
+#  ]
 # i=0
 # while i<len(telebeler):
 #     print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
@@ -58,9 +58,9 @@ telebeler=[
 
 
 
-i=0
-for telebe in telebeler:
-       print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
+# i=0
+# for telebe in telebeler:
+    #    print(f"Ad:{telebeler[0][i]}, Soyad:{telebeler[1][i]}")
          
 
 #version 03
@@ -93,20 +93,20 @@ for telebe in telebeler:
     
 
 #version 04
-# telebeler=[
-# {
-#     "ad":"Ehmed",
-#     "soyad":"Ehmedov"
-# },
-# {
-#     "ad":"Memmed",
-#     "soyad":"Salehov"
-# },
-# {
-#     "ad":"Sabir",
-#     "soyad":"Quliyev"
-# }
-# ]
+telebeler=[
+{
+    "ad":"Ehmed",
+    "soyad":"Ehmedov"
+},
+{
+    "ad":"Memmed",
+    "soyad":"Salehov"
+},
+{
+    "ad":"Sabir",
+    "soyad":"Quliyev"
+}
+]
 # print(telebeler[1]["ad"])
 
 
@@ -119,8 +119,20 @@ for telebe in telebeler:
 
 
 # i=0
-# for x in telebeler:
-#     print(x)
+# for telebe in telebeler:
+#     print(telebe)
+
+# i=0
+# for telebe in telebeler:
+#     print(telebe["ad"])
+
+# def FindWithName(name):
+#   for telebe in telebeler:
+#     if telebe["ad"]==name:
+#      print(telebe["ad"],telebe["soyad"])
+
+# FindWithName("Ehmed")
+    
 
 # #version 05
 # telebeler={
@@ -173,24 +185,24 @@ for telebe in telebeler:
 
 adlar=['Ehmed','Memmed','Sabir','Ekrem','Namiq']
 soyadlar=['Ehmedov','Salehov','Quliyev','Tahirov','Rustemov']
-# fullnames=["Memmed Salehov","Ehmed Ehmedov" ]
-#print (fullnames [1])
+fullnames=[]
 
-# for i in range(len(adlar)):
-#     fullnames.append(adlar[i]+' '+soyadlar[i])
 
-# for fullname in fullnames:
-#     print(fullname)
+for i in range(len(adlar)):
+    fullnames.append(adlar[i]+' '+soyadlar[i])
+
+for fullname in fullnames:
+    print(fullname)
 
 ##########################
 
-def FindFullname(name):
-    for ad in adlar:
-        if ad==(name):
-          print([ad],[soyadlar])
+# def FindFullname(name):
+#     for ad in adlar:
+#         if ad==(name):
+#           print([ad],[soyadlar])
         
-print("Axtardigininz telebenin adi", )
-FindFullname("Ehmed")
+# print("Axtardigininz telebenin adi", )
+# FindFullname("Ehmed")
     
 # FindFullname("")
 # def Axtardiğiniz_tələbənin_tam_adi

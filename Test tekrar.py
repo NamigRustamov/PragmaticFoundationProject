@@ -117,7 +117,10 @@
 
 
 
-maaslar=[600,400,800,550,320,700]
+
+
+
+# maaslar=[600,400,800,550,320,700]
 #toplam isci maasi
 #ortalama maas
 
@@ -139,14 +142,14 @@ maaslar=[600,400,800,550,320,700]
 # ortalamamaas=cem/len(maaslar)
 # print(ortalamamaas)
 
-iscilerinYaslari=[23,34,19,45,34]
-#ortalama yas
-yaslarincemi=0
-i=0
-while i<5:
-    yaslarincemi+=iscilerinYaslari[i]
-    i+=1
-ortalamayas=yaslarincemi/len(iscilerinYaslari)
+# iscilerinYaslari=[23,34,19,45,34]
+# #ortalama yas
+# yaslarincemi=0
+# i=0
+# while i<5:
+#     yaslarincemi+=iscilerinYaslari[i]
+#     i+=1
+# ortalamayas=yaslarincemi/len(iscilerinYaslari)
 #(ortalamayas)
 
 
@@ -258,6 +261,14 @@ ortalamayas=yaslarincemi/len(iscilerinYaslari)
 # print(telebeler[1]["ad"],telebeler[1]["soyad"])
 # for i in telebeler:
 #     print(telebeler[1]["ad"],telebeler[1]["soyad"])
+# i=0
+# for telebe in telebeler:
+#     print(telebe)
+
+# for telebe in telebeler:
+#     if telebe["ad"]=="Ehmed":
+#      print(telebe["ad"],telebe["soyad"])
+
 
 ##Version 05
 # telebeler={
@@ -268,6 +279,96 @@ ortalamayas=yaslarincemi/len(iscilerinYaslari)
 
 # for i in telebeler:
 #     print(telebeler["adlar"][1])
+
+
+
+#### Day 09 #########
+
+# def FindWithName(name):  FUNCTION FUNCTION FUNCTION
+#   for telebe in telebeler:
+#     if telebe["ad"]==name:
+    #  print(telebe["ad"],telebe["soyad"])
+
+# FindWithName("Ehmed")
+
+# ededler=[235,350,250,158,255,65,1250]
+# cem=0
+# for eded in ededler:
+#     cem+=eded
+# print(cem) #2563 olur
+
+
+
+#ededlerin cemini tapan bir funksiya yazin
+
+#tek ededleri tapan bir funksiya yazin
+# ededler=[235,350,250,158,255,65,1250]
+# cem=0
+# for eded in ededler:
+#     if eded%2==0:
+#         continue
+#     else:
+#         cem+=eded
+# print(cem)
+
+#200 den < ve <600 olan ededleri tapan bir funksiya yazin
+# ededler=[235,350,250,158,255,65,1250]
+# cem=0
+# for eded in ededler:
+#     if eded>200 and eded<600:
+#         print(eded)
+
+
+# ededler=[235,350,250,158,255,65,1250]
+# cem=0
+# def Ededleriekranacapet(kicikeded,boyukeded):
+#   for eded in ededler:
+#     if eded>kicikeded and eded<boyukeded:
+#        print(eded)
+# Ededleriekranacapet(100,320)
+
+# ededler=[25,18,36,85,65]
+# def CemiTap():
+#     cem=0
+#     for eded in ededler:
+#         cem+=eded
+#     print(cem)
+# CemiTap() ###229 olur
+
+##Daha funksional 
+# ededler=[25,18,36,85,65]
+# def CemiTap(lst):
+#     cem=0
+#     for eded in lst:
+#         cem+=eded
+#     print(cem)
+
+# CemiTap(ededler) ## ededler yazaraq 229 olur
+
+#ededlerin ceminin 5 bolunmesinden qalan qaligi tapan funksiya
+# ededler=[25,18,36,85,65]
+
+# def CemiTap(lst):
+#     cem=0
+#     for eded in lst:
+#         cem+=eded
+#     return cem
+# def QalanQaligiTap():
+#     EdedlerinCemi=CemiTap(ededler)
+#     print(EdedlerinCemi%5)
+
+# QalanQaligiTap() ## 229/5, qaliq 4
+
+# ededler.append(100)
+# ededler.remove(85)
+# # ededler.clear()
+# ededler.sort()
+# print(ededler)
+
+# ad="Ali"
+# yeniad=ad.capitalize()
+# print(yeniad)
+
 
 
 

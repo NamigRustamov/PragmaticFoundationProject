@@ -22,7 +22,7 @@
 # enboyukededitap()
 
 # 3 variant
-# def enboyukededitap(n):
+# def enboyukededitap(n): #En optimal while variant
 #     arr.sort(reverse=True)
 #     i=0
 #     while i<n:
@@ -49,7 +49,7 @@
 
 # enboyukededitapwithFor()  # 1-19 ededi cixaracaq
 
-# 6 variant
+# 6 variant  #En optimal For variant
 # range(20)
 # def enboyukededitapwithFor(n):
 #     arr.sort(reverse=True)
@@ -168,13 +168,117 @@
 
 
 
-adlar=[]
-while True:
-    ad=input("Yeni istifadeci elave et : ")
-    adlar.append(ad)
-    secim=input('Emeliyyati dayandirmaq ucun 1 , davam ucun 2:' )
-    if secim=='1':
-      break
-    
-print(adlar)
+# ekran=""""1. Yeni istifadəçi əlavə et
+  # 2. Bütün istifadəçiləri gör
+  # 3. İstifadəçi sil
+  # 4. İstifadəçi məlumatlarını dəyişdir"""
+
+# emr=input("Yeni emeliyyat nomresini yaz:")
+# istifadeciler=[]
+# if emr=="1":
+#   print("Adinizi daxil edin:")"""
+  
+
+
+
+
+
+# adlar=[]
+# while True:
+#     ad=input("Yeni istifadeci elave et : ")
+#     adlar.append(ad)
+#     secim=input('''Emeliyyati dayandirmaq ucun 1,istifadecileri gormek ucun 2,
+#     istifadecini silmek ucun 3, davam ucun 4 secin:''' )
+#     if secim=='1':
+#       break
+#     elif secim=="2":
+#       print(adlar)
+#     if secim=="3":
+#       adlar.remove(ad)
+
+# print(adlar)  
+#  PRODOLJENIE 
+
+
+
+
+reqem=[25,3525,85,1350,158,850,665,2582]
+
+# def findthebignum(n):
+#   reqem.sort(reverse=True)
+#   i=0
+#   while i<n:
+#     print(reqem[i])
+#     i+=1
+# findthebignum(2)
+
+# range(6)
+# def findthebignum(n):
+  
+#   reqem.sort(reverse=True)
+#   for i in range(n):
+#     print(reqem[i])
+# findthebignum(3)
+
+# def findbignum(n):
+#   range(n)
+#   reqem.sort(reverse=True)
+#   for i in range(n):
+#       print(reqem[i])
+
+# findbignum(2)
+
+# def ortalamadanbignum():
+#     cem=0
+#     for eded in reqem:
+#         cem=cem+eded
+#         say=len(reqem)
+#         ortalama=cem/say
+#     for eded in reqem:
+#       if eded>ortalama:
+#          print(eded)
+# ortalamadanbignum()
+
+
+# for eded in reqem:
+#   if len(str(eded))==2:
+#      print(eded)
+
+# def vahidlerincemi():
+#   for eded in reqem:
+#    cem=0
+#    for vahid in str(eded):
+#     cem=cem+int(vahid)
+#     print(cem)
+# vahidlerincemi()
+
+
+countries=["Tunis","Aljeria","Russia","Turkey"]
+# def herfsaytap():
+#   for country in countries:
+#     print(country,len(country))
+
+# herfsaytap()
+
+# def thelongestcountryname():
+#   aduzunluqlari=[]
+#   for country in countries:
+#     aduzunluqlari.append(len(country))
+#   aduzunluqlari.sort(reverse=True)
+#   print(aduzunluqlari[0])
+# thelongestcountryname()
+
+
+def herfsahibiolan(soz,axtarilanherf):
+  herfsayi=0
+  for herf in soz:
+    if herf==axtarilanherf:
+      herfsayi+=1
+  if herfsayi==0:
+    print(f'{soz} sozunde {axtarilanherf} herfi yoxdur')
+  else:
+    print(f'{soz} sozunde {herfsayi} eded {axtarilanherf} herfi var')
+herfsahibiolan('Russia','s')
+
+
 
