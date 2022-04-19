@@ -134,31 +134,31 @@
 from collections import deque
 
 
-# test_list=[1,2,3,4,5]
+test_list=[1,2,3,4,5]
 
-# print("Original list:"+str(test_list))
+print("Original list:"+str(test_list))
 
-# test_list.insert(0,25)
-# print("Resultant list is:"+str(test_list))
+test_list.insert(0,25)
+print("Resultant list is:"+str(test_list))
 
-# test_list=[30]+test_list
-# print("Resultant list is:"+str(test_list))
-# test_list[:0]=[8]
-# print("Resultant list:"+str(test_list))
+test_list=[30]+test_list
+print("Resultant list is:"+str(test_list))
+test_list[:0]=[8]
+print("Resultant list:"+str(test_list))
 
-# test_list=deque(test_list)
-# test_list.appendleft(8)
-# test_list=list(test_list)
-# print("Resultant list is:"+str(test_list))
+test_list=deque(test_list)
+test_list.appendleft(8)
+test_list=list(test_list)
+print("Resultant list is:"+str(test_list))
 
 
-# def prepend(list, str):
-#     str+='{0}'
-#     list=[str.format(i) for i in list]
-#     return(list)
-# list=[1,2,3,4]
-# str='Geek'
-# print(prepend(list,str))
+def prepend(list, str):
+    str+='{0}'
+    list=[str.format(i) for i in list]
+    return(list)
+list=[1,2,3,4]
+str='Geek'
+print(prepend(list,str))
 
 
 
@@ -169,9 +169,9 @@ add_string="for"
 print("The original string:"+test_string)
 print("The add string:"+add_string)
 N=5
-# res=test_string[:N]+add_string+test_string[N:]
+res=test_string[:N]+add_string+test_string[N:]
 
-# print("The string after performing addition:"+str(res))
+print("The string after performing addition:"+str(res))
 
 res=list(test_string)
 res.insert(N,add_string)

@@ -59,16 +59,15 @@ while True:
     password= input("Zehmet olmasa password yazin:")
     if username=='admin':
      continue
-    elif " ":
+    if username== " ":
         print("Dəyərlər boş buraxıla bilməz")
     else:
         print("Deyer sehv daxil edilmisdir")
         
     if password=='123456':
-        print("Sistemə daxil oldunuz təşəkkür edirik")
         break
         print("Sistemə daxil oldunuz təşəkkür edirik")
-    elif "":
+    if password=="":
         print("Dəyərlər boş buraxıla bilməz")
     else:
         print("Deyer sehv daxil edilmisdir")
