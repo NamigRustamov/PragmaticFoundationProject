@@ -1,0 +1,8 @@
+select*from Musteri;
+select*from Mehsul;
+
+insert into Musteri(Ad, Email)
+values('AliAliyev', 'musterimail.new');
+
+insert into Mehsul(MehsulAdi, Qiymet, Miqdar)
+values('Xurma', '3', '50box')
